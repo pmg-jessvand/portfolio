@@ -1,0 +1,152 @@
+.hero {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .hero-txt {
+        position: absolute;
+        top: 250px;
+        right: 10%;
+
+        p {
+            font-family: 'Oswald';
+            font-weight: 300;
+            font-size: 4rem;
+            text-align: right;
+            margin: 0px;
+
+            a {
+                color: $color-white;
+                
+                :hover {
+                    color: $main-color;
+                    transition: $transition;
+                }
+            }
+
+            strong {
+                color: $main-color;
+            }
+        }
+    }
+}
+
+.page-content {
+
+    h2 {
+        font-size: 3rem;
+    }
+
+        #about {
+            margin-top: 50px;
+            .section-content {
+                padding: 20px 50px;
+                margin-bottom: 50px;
+
+            .about-img {
+                width: 100%;
+                
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+    
+            .about-txt {
+                padding: 50px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                flex-wrap: wrap;
+    
+                p {
+                    font-size: 1.5rem;
+                    font-weight: 300;
+                    font-family: 'Nunito';
+                }
+    
+                .quote {
+    
+                    font-size: 1.8rem;
+                    font-family: 'Oswald';
+                    text-transform: uppercase;
+                    color: $main-color;
+                }
+            }
+            }
+        }
+
+        #technologies {
+            .section-content {
+                padding: 20px 50px;
+            }
+
+            .tech-card {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 20px 0px;
+
+                p {
+                    font-size: 1.5rem;
+                    margin: 0px;
+                }
+
+                img {
+                    width: 100px;
+                }
+            }
+        }
+
+        #projects {
+
+            .section-content {
+                padding: 20px 50px;
+            }
+        }
+}
+
+@media (max-width: 900px) {
+    .hero {
+
+        .hero-txt {
+            padding: 20px;
+            top: 400px;
+            right: 50px;
+
+            p {
+                font-size: 2rem;
+            }
+        }
+    }
+
+    .page-content {
+
+        #about {
+            .section-content {
+                padding: 0px;
+            }
+            
+            .about-img {
+                padding: 10px 0px;
+            }
+            
+            .about-txt {
+                padding: 10px 10px;
+            }
+        }
+
+        #projects {
+            .section-content {
+                padding: 0px;
+            }
+        }
+    }
+}

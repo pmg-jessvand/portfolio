@@ -1,0 +1,16 @@
+.button {
+    font-size: 1.5rem;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    color: $color-white;
+    border: solid 2px $main-color;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+        color: $color-black;
+        background-color: $main-color;
+        transition: $transition;
+    }
+}

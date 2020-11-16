@@ -1,0 +1,39 @@
+[
+    {
+        "technology": "Html",
+        "icon": "./tech-logos/html.svg"
+    },
+    {
+        "technology": "Css",
+        "icon": "./tech-logos/css.svg"
+    },
+    {
+        "technology": "Sass",
+        "icon": "./tech-logos/sass.svg"
+    },
+    {
+        "technology": "Javascript",
+        "icon": "./tech-logos/javascript.svg"
+    },
+    {
+        "technology": "React",
+        "icon": "./tech-logos/react.svg"
+    },
+    {
+        "technology": "GraphQL",
+        "icon": "./tech-logos/graphql.svg"
+    },
+    {
+        "technology": "MongoDB",
+        "icon": "./tech-logos/mongo.svg"
+    },
+    {
+        "technology": "PHP",
+        "icon": "./tech-logos/php.svg"
+    },
+    {
+        "technology": "Sql",
+        "icon": "./tech-logos/mysql.svg"
+    }
+    
+]

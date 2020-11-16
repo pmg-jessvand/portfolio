@@ -1,0 +1,43 @@
+[
+    {
+        "title": "PGM Website",
+        "description": "Voor het vak @work2 kregen we de opdracht een webiste te maken om de opleiding te promoten. De styling is op basis Atomic Design architectuur",
+        "tags": [
+            "Nodejs",
+            "Javascript",
+            "Html",
+            "Sass",
+            "Design"
+        ],
+        "url": "https://pmg-jessvand.github.io/pgm-website",
+        "github": "https://github.com/pmg-jessvand/pgm-website",
+        "img": "./project-images/pgm-site.jpg"
+    },
+    {
+        "title": "FoodCloud",
+        "description": "Mijn eerste project in PHP. FoodCloud is een random recepten generator. Weet je niet wat je wil eten? Geen probleem, kies een random gerecht uit tot je jouw culinaire match vindt. De gebruiker kan zich registreren om zelf recepten te delen met de comunity en zijn favorieten op te slaan. De data wordt opgeslaan in een sql-database",
+        "tags": [
+            "PHP",
+            "SQL",
+            "Javascript",
+            "Sass"
+        ],
+        "url": "",
+        "github": "https://github.com/pmg-jessvand/foodcloud",
+        "img": "./project-images/foodcloud-mockup.jpg"
+    },
+    {
+        "title": "Bootcamp 2020",
+        "description": "Tijdens het bootcamp Design Thinking, bedachten we een manier om mensen te stimuleren meer de fiets te nemen. Wij bedachten 'Lowki' een elektrisch fietsslot met handige features. Naast het concept maakten we een visual design voor de app en een crowdfunding website.",
+        "tags": [
+            "Design",
+            "Javascript",
+            "Blender",
+            "Sass",
+            "After effects"
+        ],
+        "url": "https://pgmgent-1920-students.github.io/crowdfunding-pmg-jessvand/",
+        "github": "https://github.com/pmg-jessvand/bootcamp-2020",
+        "img": "./project-images/bootcamp.jpg"
+    }
+]

@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    background-color: $color-black;
+    color: $color-white;
+}
+
+h1, h2 {
+    font-family: 'Oswald';
+}
+
+p {
+    font-family: 'Nunito';
+}
+
+.app {
+    overflow-x: hidden;
+}

@@ -1,0 +1,80 @@
+.project-detail {
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 99vw;
+    overflow: hidden;
+
+    .detail-content {
+        display: flex;
+        align-items: center;
+
+        width: 80vw;
+        height: 600px;
+        margin: 100px auto;
+
+        .detail-img {
+            display: flex;
+            flex-direction: column;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+            }
+
+            ul {
+                display: flex;
+                flex-direction: row;
+                list-style: none;
+
+                li {
+                    margin: 10px;
+                }
+            }
+        }
+
+        .detail-info {
+            
+            h2 {
+                margin: 20px 0px;
+            }
+
+            .detail-buttons {
+                margin: 20px 10px;
+                display: flex;
+                flex-direction: column;
+
+                a {
+                    margin: 10px 0px;
+                    text-decoration: none;
+                    color: $main-color;
+                }
+            }
+        }
+    }
+
+    button {
+        margin: 20px 0px;
+        padding: 10px;
+        border: none;
+        border-bottom: solid 2px $main-color;
+        color: $color-white;
+        background-color: transparent;
+        
+    }
+}
+
+@media (max-width: 900px) {
+    .project-detail {
+
+        .detail-content {
+            width: 100vw;
+            min-height: 500px;
+            padding: 20px;
+        }
+    }
+}
