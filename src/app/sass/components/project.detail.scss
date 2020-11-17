@@ -6,7 +6,7 @@
     left: 0px;
     height: 100vh;
     width: 99vw;
-    overflow: hidden;
+    // overflow: hidden;
 
     .detail-content {
         display: flex;
@@ -30,6 +30,7 @@
                 display: flex;
                 flex-direction: row;
                 list-style: none;
+                flex-wrap: wrap;
 
                 li {
                     margin: 10px;
@@ -70,11 +71,34 @@
 
 @media (max-width: 900px) {
     .project-detail {
+        
 
         .detail-content {
             width: 100vw;
             min-height: 500px;
             padding: 20px;
+            margin: 0px;
+            
+            .detail-img {
+
+                ul {
+                    li{
+                        margin: 5px;
+                    }
+                }
+            }
+
+            .detail-info {
+            
+                h2 {
+                    margin: 10px 0px;
+                    font-size: 1.3rem;
+                }
+
+                p {
+                    display: none;
+                }
+            }
         }
     }
 }

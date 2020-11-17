@@ -150,3 +150,14 @@
         }
     }
 }
+
+@media (max-width: 600px) {
+    .hero {
+
+        .hero-txt {
+            padding: 20px;
+            top: 300px;
+            right: 20px;
+        }
+    }
+}
